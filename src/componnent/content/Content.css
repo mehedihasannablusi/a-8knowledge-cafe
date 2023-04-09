@@ -1,0 +1,60 @@
+
+.content-cart{
+    margin: 20px;
+}
+
+.content-img{
+    height: 450px;
+    width: 845px;
+}
+.authorDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.pic{
+    display:inline-flex;
+    height: 80px;
+    width: 250px;
+   line-height: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.name p{
+    line-height: 0px;
+}
+
+.color{
+    color: blueviolet;
+    cursor: pointer;
+    
+}
+
+.bookmark-button{
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width:572px) {
+    .content-img{
+        height: 300px;
+        width: 400px;
+
+    }
+
+    .title{
+        font-size: 20px;
+    }
+       
+    }
